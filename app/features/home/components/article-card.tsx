@@ -34,6 +34,7 @@ export const ArticleCard = ({ article, className, onClick }: CardProps) => {
             src={article?.imageUrl}
             alt={article?.title}
             className="w-full h-64 object-cover rounded-lg rounded-b-none"
+            loading="lazy"
           />
         </div>
 

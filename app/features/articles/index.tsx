@@ -26,6 +26,7 @@ export const ArticlesFeature = ({ article }: ArticlesFeatureProps) => {
         src={article?.imageUrl}
         alt={article?.title}
         className="w-full h-[500px] object-cover rounded-lg shadow-md mt-5"
+        loading="lazy"
       />
 
       <div className="text-sm text-gray-600 mt-5">{formattedDate}</div>

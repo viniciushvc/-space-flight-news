@@ -10,6 +10,7 @@ export const Logo = ({ className }: LogoProps) => {
       src="/img/rocket.svg"
       alt="Rocket icon."
       className={clsx("w-20 h-20 sm:w-32 sm:h-32", className)}
+      loading="lazy"
     />
   );
 };
