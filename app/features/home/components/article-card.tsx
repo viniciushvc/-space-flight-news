@@ -32,7 +32,7 @@ export const ArticleCard = ({ article, className, onClick }: CardProps) => {
         <div className="md:flex-shrink-0">
           <img
             src={article?.imageUrl}
-            alt="mountains"
+            alt={article?.title}
             className="w-full h-64 object-cover rounded-lg rounded-b-none"
           />
         </div>
