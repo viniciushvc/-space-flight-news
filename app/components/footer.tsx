@@ -13,7 +13,7 @@ export const Footer = () => {
         </a>
         and ❤️ by{" "}
         <a
-          href="https://github.com/viniciushvc"
+          href="viniciusvicentini.com/github"
           target="_blank"
           rel="noreferrer noopener"
           className="text-purple-500"
